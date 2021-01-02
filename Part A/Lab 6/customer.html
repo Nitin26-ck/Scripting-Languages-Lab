@@ -1,0 +1,62 @@
+<!--Form Example-->
+
+<html>
+	<head>
+		<title>
+			Customer Feedback
+		</title>
+		
+	</head>
+	<body>
+		<h2>Enter your feedback</h2>
+		<script>
+			function display()
+			{
+			var a=document.getElementById("Customer_name").value;
+			document.getElementById("r1").innerHTML="The given name is"+a;
+
+			if (document.getElementById("Customer_gender").checked) 
+			{
+  				b = document.getElementById("Customer_gender").value;
+			}
+
+			document.getElementById("r2").innerHTML="The given name is"+b;
+
+
+
+			var c=document.getElementById("other_input").value;
+			document.getElementById("r3").innerHTML="The given name is"+c;
+			}
+		</script>
+		
+			Name <br>
+			
+			<!--Text Box-->
+			<input type="text" id="Customer_name" /><br><br>
+
+			
+			Gender <br>
+			<!--Radio Button-->
+			<input type="radio" id="Customer_gender" value="male" > Male</input>
+			<input type="radio" id="Customer_gender" value="female"> Female</input>
+			<input type="radio" id="Customer_gender" value="other"> Other</input><br><br>		
+			
+			Any other feedback<br>
+			<!--Textarea-->
+			<textarea id="other_input" rows="10" cols="150">Your service is good.</textarea><br><br>
+
+
+			<!--Button-->
+			<input type="submit" value="Submit my feedback" onclick="display()">
+			
+
+<br><br>The results are:
+			
+					
+		
+
+	<p id="r1"> </p>
+	<p id="r2"> </p>
+	<p id="r3"> </p>
+	</body>
+</html>
