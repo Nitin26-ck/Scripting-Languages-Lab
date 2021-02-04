@@ -1,3 +1,11 @@
+"""
+Write Python code to do the following:
+ i.	Create list with inputs from user         
+ ii.	Determine minimum and maximum elements in the list
+ iii.   Insert new element into the list
+ iv.    Delete an element from the list
+ v.     Determine if an element is present in the list. 
+"""
 a=[]
 size=int(input("Enter size of list"))
 for i in range(0,size):
