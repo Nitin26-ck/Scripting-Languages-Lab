@@ -1,4 +1,6 @@
-#Write a python program to count the frequency of words in a given file.
+"""
+b) Write a python program to count the frequency of words in a given file.
+"""
 from collections import Counter
 def word_count(fname):
         with open(fname) as f:
