@@ -1,4 +1,5 @@
-"""Python for Data Science - Perform Data Science on Titanic Dataset
+"""
+Python for Data Science - Perform Data Science on Titanic Dataset
 a)Load the Titanic dataset into one of the data structures (NumPy or Pandas).
 b)Display header rows and description of the loaded dataset.
 c) Remove unnecessary features (E.g. drop unwanted columns) from the dataset.
@@ -8,11 +9,7 @@ e) Perform the following visualizations on the loaded dataset:
      ii)  Survival rate of male vs female
      iii) No of passengers in each age group
 
-
-#numpy - Deals multi-dimensional arrays and matrices
-#seaborn - Deals with data visualization
-#matplotlib - Plotting; pyplot-interactive plotting
-#pandas - data structures and data analysis tools"""
+"""
 import numpy as np 
 import seaborn as sns
 import matplotlib.pyplot as plt
