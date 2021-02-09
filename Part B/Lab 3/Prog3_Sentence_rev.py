@@ -1,13 +1,12 @@
-#!/usr/bin/env python
+"""
+Introduction to Python : Classes & Objects, Functions
+Write a python class to reverse a sentence (initialized via constructor) word by word.
+That is: “I am here” should be reversed as “here am I”. Create instances of this class
+for each of the three strings input by the user and display the reversed string for each,
+in descending order of number of vowels in the string
+"""
 
 
-#Introduction to Python : Classes & Objects, Functions
-#a)   Write a python class to reverse a sentence (initialized via constructor) word by word.
-#That is: “I am here” should be reversed as “here am I”. Create instances of this class
-#for each of the three strings input by the user and display the reversed string for each,
-#in descending order of number of vowels in the string
-
-# Note : Handle all other corner cases which are not handled here
 class SentenceReverser:
 	vowels = ["a","e","i","o","u"]
 	sentence = ""
