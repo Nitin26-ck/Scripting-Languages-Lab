@@ -1,3 +1,10 @@
+"""
+Python for Data Science - 
+Load ‘Iris Dataset’  into one of the data structures (NumPy or Pandas).
+Perform data pre-processing on this dataset.
+Create dataframes, perform computations and visualize the results appropriately. 
+"""
+
 import seaborn as sns
 import matplotlib.pyplot as plt
 import pandas as pd
