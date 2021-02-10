@@ -1,6 +1,10 @@
-"""a)Load the ‘Black Friday’ dataset into one of the data structures (NumPy or Pandas).\n",
-    "b)Display header rows and description of the loaded dataset.\n",
-    """
+"""
+Python for Data Science:
+a)Load the ‘Black Friday’ dataset into one of the data structures (NumPy or Pandas).\n
+b)Display header rows and description of the loaded dataset.
+Create dataframes, perform computations and visualize the results appropriately
+"""
+
 import pandas as pd
 import numpy as np
 
